@@ -1,0 +1,6 @@
+{
+  "name": "OmniTools - Online Utilities & Tools Suite",
+  "description": "Professional multi-tool platform with client-side image processing, PDF tools, code utilities, text formatters, and calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
