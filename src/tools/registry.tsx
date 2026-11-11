@@ -10,6 +10,7 @@ import { WordCounter } from './components/WordCounter';
 import { CaseConverter } from './components/CaseConverter';
 import { JsonFormatter } from './components/JsonFormatter';
 import { PercentageCalculator } from './components/PercentageCalculator';
+import { PasswordGenerator } from './components/PasswordGenerator';
 import { Wrench } from 'lucide-react';
 
 export interface ToolComponentProps {
@@ -27,6 +28,7 @@ export const TOOL_REGISTRY: Record<string, React.FC<ToolComponentProps>> = {
   'word-counter': WordCounter,
   'case-converter': CaseConverter,
   'json-formatter': JsonFormatter,
+  'password-generator': PasswordGenerator,
   'percentage-calculator': PercentageCalculator,
 };
 
